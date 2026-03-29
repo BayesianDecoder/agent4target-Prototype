@@ -1,0 +1,1741 @@
+{
+  "target_id": "ENSG00000157764",
+  "target_symbol": "BRAF",
+  "n_diseases": 67,
+  "n_evidence_records": 185,
+  "overall_score": 0.1644,
+  "per_disease": [
+    {
+      "disease_id": "MONDO_0015280",
+      "disease_name": "cardiofaciocutaneous syndrome",
+      "noisy_or": 0.54,
+      "final_score": 0.3988,
+      "aggregated_score": 0.3988,
+      "alpha": 0.5588,
+      "n_effective": 1.9,
+      "tier": "B",
+      "n_records": 11,
+      "n_sources": 2,
+      "sources_present": [
+        "open_targets",
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap"
+      ],
+      "jackknife_ci": [
+        0.225,
+        0.2875
+      ],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.56). Missing: depmap. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.9335,
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0005575",
+      "disease_name": "colorectal cancer",
+      "noisy_or": 0.5371,
+      "final_score": 0.3972,
+      "aggregated_score": 0.3972,
+      "alpha": 0.5588,
+      "n_effective": 1.9,
+      "tier": "B",
+      "n_records": 6,
+      "n_sources": 2,
+      "sources_present": [
+        "open_targets",
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap"
+      ],
+      "jackknife_ci": [
+        0.2232,
+        0.2875
+      ],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.56). Missing: depmap. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.9141,
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0004992",
+      "disease_name": "cancer",
+      "noisy_or": 0.5405,
+      "final_score": 0.397,
+      "aggregated_score": 0.397,
+      "alpha": 0.5522,
+      "n_effective": 1.85,
+      "tier": "B",
+      "n_records": 6,
+      "n_sources": 2,
+      "sources_present": [
+        "open_targets",
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap"
+      ],
+      "jackknife_ci": [
+        0.2251,
+        0.2851
+      ],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.55). Missing: depmap. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.9367,
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0013380",
+      "disease_name": "LEOPARD syndrome 3",
+      "noisy_or": 0.5368,
+      "final_score": 0.3962,
+      "aggregated_score": 0.3962,
+      "alpha": 0.5562,
+      "n_effective": 1.88,
+      "tier": "B",
+      "n_records": 5,
+      "n_sources": 2,
+      "sources_present": [
+        "open_targets",
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap"
+      ],
+      "jackknife_ci": [
+        0.223,
+        0.2866
+      ],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.56). Missing: depmap. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.9121,
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0013379",
+      "disease_name": "Noonan syndrome 7",
+      "noisy_or": 0.5363,
+      "final_score": 0.3959,
+      "aggregated_score": 0.3959,
+      "alpha": 0.5562,
+      "n_effective": 1.88,
+      "tier": "B",
+      "n_records": 5,
+      "n_sources": 2,
+      "sources_present": [
+        "open_targets",
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap"
+      ],
+      "jackknife_ci": [
+        0.2227,
+        0.2866
+      ],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.56). Missing: depmap. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.9089,
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0018997",
+      "disease_name": "Noonan syndrome",
+      "noisy_or": 0.5328,
+      "final_score": 0.3948,
+      "aggregated_score": 0.3948,
+      "alpha": 0.5588,
+      "n_effective": 1.9,
+      "tier": "B",
+      "n_records": 10,
+      "n_sources": 2,
+      "sources_present": [
+        "open_targets",
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap"
+      ],
+      "jackknife_ci": [
+        0.2205,
+        0.2875
+      ],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.56). Missing: depmap. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.8853,
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0009026",
+      "disease_name": "Costello syndrome",
+      "noisy_or": 0.528,
+      "final_score": 0.3909,
+      "aggregated_score": 0.3909,
+      "alpha": 0.5549,
+      "n_effective": 1.87,
+      "tier": "B",
+      "n_records": 5,
+      "n_sources": 2,
+      "sources_present": [
+        "open_targets",
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap"
+      ],
+      "jackknife_ci": [
+        0.2176,
+        0.2861
+      ],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.55). Missing: depmap. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.8536,
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0008903",
+      "disease_name": "lung cancer",
+      "noisy_or": 0.519,
+      "final_score": 0.3871,
+      "aggregated_score": 0.3871,
+      "alpha": 0.5588,
+      "n_effective": 1.9,
+      "tier": "B",
+      "n_records": 7,
+      "n_sources": 2,
+      "sources_present": [
+        "open_targets",
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap"
+      ],
+      "jackknife_ci": [
+        0.2119,
+        0.2875
+      ],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.56). Missing: depmap. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.7934,
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0016691",
+      "disease_name": "pilocytic astrocytoma",
+      "noisy_or": 0.5108,
+      "final_score": 0.3825,
+      "aggregated_score": 0.3825,
+      "alpha": 0.5588,
+      "n_effective": 1.9,
+      "tier": "B",
+      "n_records": 4,
+      "n_sources": 2,
+      "sources_present": [
+        "open_targets",
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap"
+      ],
+      "jackknife_ci": [
+        0.2067,
+        0.2875
+      ],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.56). Missing: depmap. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.7386,
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0007893",
+      "disease_name": "Noonan syndrome with multiple lentigines",
+      "noisy_or": 0.4839,
+      "final_score": 0.3675,
+      "aggregated_score": 0.3675,
+      "alpha": 0.5588,
+      "n_effective": 1.9,
+      "tier": "B",
+      "n_records": 9,
+      "n_sources": 2,
+      "sources_present": [
+        "open_targets",
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap"
+      ],
+      "jackknife_ci": [
+        0.1899,
+        0.2875
+      ],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.56). Missing: depmap. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.5591,
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0005105",
+      "disease_name": "melanoma",
+      "noisy_or": 0.5087,
+      "final_score": 0.354,
+      "aggregated_score": 0.354,
+      "alpha": 0.4643,
+      "n_effective": 1.3,
+      "tier": "B",
+      "n_records": 2,
+      "n_sources": 2,
+      "sources_present": [
+        "depmap",
+        "pharos"
+      ],
+      "sources_missing": [
+        "open_targets"
+      ],
+      "jackknife_ci": [
+        0.2135,
+        0.25
+      ],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.46). Missing: open_targets. Seek additional sources.",
+      "source_calibrated_scores": {
+        "depmap": 0.5176,
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0100342",
+      "disease_name": "malignant glioma",
+      "noisy_or": 0.4,
+      "final_score": 0.292,
+      "aggregated_score": 0.292,
+      "alpha": 0.4,
+      "n_effective": 1.0,
+      "tier": "B",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap",
+        "open_targets"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.40). Missing: depmap, open_targets. Seek additional sources.",
+      "source_calibrated_scores": {
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0011719",
+      "disease_name": "gastrointestinal stromal tumor",
+      "noisy_or": 0.4,
+      "final_score": 0.292,
+      "aggregated_score": 0.292,
+      "alpha": 0.4,
+      "n_effective": 1.0,
+      "tier": "B",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap",
+        "open_targets"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.40). Missing: depmap, open_targets. Seek additional sources.",
+      "source_calibrated_scores": {
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0018153",
+      "disease_name": "Erdheim-Chester disease",
+      "noisy_or": 0.4,
+      "final_score": 0.292,
+      "aggregated_score": 0.292,
+      "alpha": 0.4,
+      "n_effective": 1.0,
+      "tier": "B",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap",
+        "open_targets"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.40). Missing: depmap, open_targets. Seek additional sources.",
+      "source_calibrated_scores": {
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0018907",
+      "disease_name": "craniopharyngioma",
+      "noisy_or": 0.4,
+      "final_score": 0.292,
+      "aggregated_score": 0.292,
+      "alpha": 0.4,
+      "n_effective": 1.0,
+      "tier": "B",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap",
+        "open_targets"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.40). Missing: depmap, open_targets. Seek additional sources.",
+      "source_calibrated_scores": {
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0017795",
+      "disease_name": "ameloblastoma",
+      "noisy_or": 0.4,
+      "final_score": 0.292,
+      "aggregated_score": 0.292,
+      "alpha": 0.4,
+      "n_effective": 1.0,
+      "tier": "B",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap",
+        "open_targets"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.40). Missing: depmap, open_targets. Seek additional sources.",
+      "source_calibrated_scores": {
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0018935",
+      "disease_name": "hairy cell leukemia",
+      "noisy_or": 0.4,
+      "final_score": 0.292,
+      "aggregated_score": 0.292,
+      "alpha": 0.4,
+      "n_effective": 1.0,
+      "tier": "B",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap",
+        "open_targets"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.40). Missing: depmap, open_targets. Seek additional sources.",
+      "source_calibrated_scores": {
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0006639",
+      "disease_name": "adrenal cortex carcinoma",
+      "noisy_or": 0.4,
+      "final_score": 0.292,
+      "aggregated_score": 0.292,
+      "alpha": 0.4,
+      "n_effective": 1.0,
+      "tier": "B",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap",
+        "open_targets"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.40). Missing: depmap, open_targets. Seek additional sources.",
+      "source_calibrated_scores": {
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0016693",
+      "disease_name": "subependymal giant cell astrocytoma",
+      "noisy_or": 0.4,
+      "final_score": 0.292,
+      "aggregated_score": 0.292,
+      "alpha": 0.4,
+      "n_effective": 1.0,
+      "tier": "B",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap",
+        "open_targets"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.40). Missing: depmap, open_targets. Seek additional sources.",
+      "source_calibrated_scores": {
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0021636",
+      "disease_name": "astrocytic tumor",
+      "noisy_or": 0.4,
+      "final_score": 0.292,
+      "aggregated_score": 0.292,
+      "alpha": 0.4,
+      "n_effective": 1.0,
+      "tier": "B",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "pharos"
+      ],
+      "sources_missing": [
+        "depmap",
+        "open_targets"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.40). Missing: depmap, open_targets. Seek additional sources.",
+      "source_calibrated_scores": {
+        "pharos": 1.0
+      }
+    },
+    {
+      "disease_id": "EFO_0000756",
+      "disease_name": "melanoma",
+      "noisy_or": 0.2369,
+      "final_score": 0.2263,
+      "aggregated_score": 0.2263,
+      "alpha": 0.375,
+      "n_effective": 0.9,
+      "tier": "B",
+      "n_records": 7,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.38). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.9476
+      }
+    },
+    {
+      "disease_id": "EFO_0000616",
+      "disease_name": "neoplasm",
+      "noisy_or": 0.2368,
+      "final_score": 0.2263,
+      "aggregated_score": 0.2263,
+      "alpha": 0.375,
+      "n_effective": 0.9,
+      "tier": "B",
+      "n_records": 4,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.38). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.9471
+      }
+    },
+    {
+      "disease_id": "EFO_0003060",
+      "disease_name": "non-small cell lung carcinoma",
+      "noisy_or": 0.2341,
+      "final_score": 0.2253,
+      "aggregated_score": 0.2253,
+      "alpha": 0.375,
+      "n_effective": 0.9,
+      "tier": "B",
+      "n_records": 7,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.38). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.9363
+      }
+    },
+    {
+      "disease_id": "EFO_0000182",
+      "disease_name": "hepatocellular carcinoma",
+      "noisy_or": 0.2324,
+      "final_score": 0.2247,
+      "aggregated_score": 0.2247,
+      "alpha": 0.375,
+      "n_effective": 0.9,
+      "tier": "B",
+      "n_records": 4,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.38). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.9298
+      }
+    },
+    {
+      "disease_id": "EFO_0000365",
+      "disease_name": "colorectal adenocarcinoma",
+      "noisy_or": 0.2306,
+      "final_score": 0.224,
+      "aggregated_score": 0.224,
+      "alpha": 0.375,
+      "n_effective": 0.9,
+      "tier": "B",
+      "n_records": 5,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.38). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.9222
+      }
+    },
+    {
+      "disease_id": "EFO_1001502",
+      "disease_name": "rasopathy",
+      "noisy_or": 0.2296,
+      "final_score": 0.2235,
+      "aggregated_score": 0.2235,
+      "alpha": 0.3617,
+      "n_effective": 0.85,
+      "tier": "B",
+      "n_records": 2,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.36). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.9185
+      }
+    },
+    {
+      "disease_id": "MONDO_0007265",
+      "disease_name": "cardiofaciocutaneous syndrome 1",
+      "noisy_or": 0.228,
+      "final_score": 0.223,
+      "aggregated_score": 0.223,
+      "alpha": 0.3697,
+      "n_effective": 0.88,
+      "tier": "B",
+      "n_records": 4,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.37). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.9121
+      }
+    },
+    {
+      "disease_id": "EFO_0000571",
+      "disease_name": "lung adenocarcinoma",
+      "noisy_or": 0.2278,
+      "final_score": 0.2229,
+      "aggregated_score": 0.2229,
+      "alpha": 0.375,
+      "n_effective": 0.9,
+      "tier": "B",
+      "n_records": 6,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.38). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.9111
+      }
+    },
+    {
+      "disease_id": "EFO_0000681",
+      "disease_name": "renal cell carcinoma",
+      "noisy_or": 0.2275,
+      "final_score": 0.2228,
+      "aggregated_score": 0.2228,
+      "alpha": 0.375,
+      "n_effective": 0.9,
+      "tier": "B",
+      "n_records": 3,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.38). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.9098
+      }
+    },
+    {
+      "disease_id": "MONDO_0020297",
+      "disease_name": "Noonan syndrome and Noonan-related syndrome",
+      "noisy_or": 0.2238,
+      "final_score": 0.2214,
+      "aggregated_score": 0.2214,
+      "alpha": 0.3617,
+      "n_effective": 0.85,
+      "tier": "B",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.36). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.895
+      }
+    },
+    {
+      "disease_id": "EFO_0000538",
+      "disease_name": "hypertrophic cardiomyopathy",
+      "noisy_or": 0.2134,
+      "final_score": 0.2176,
+      "aggregated_score": 0.2176,
+      "alpha": 0.3617,
+      "n_effective": 0.85,
+      "tier": "B",
+      "n_records": 4,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.36). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.8536
+      }
+    },
+    {
+      "disease_id": "MONDO_0021637",
+      "disease_name": "low grade glioma",
+      "noisy_or": 0.2041,
+      "final_score": 0.2141,
+      "aggregated_score": 0.2141,
+      "alpha": 0.3697,
+      "n_effective": 0.88,
+      "tier": "B",
+      "n_records": 3,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.37). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.8166
+      }
+    },
+    {
+      "disease_id": "EFO_0000574",
+      "disease_name": "lymphoma",
+      "noisy_or": 0.2037,
+      "final_score": 0.2139,
+      "aggregated_score": 0.2139,
+      "alpha": 0.375,
+      "n_effective": 0.9,
+      "tier": "B",
+      "n_records": 5,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.38). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.8147
+      }
+    },
+    {
+      "disease_id": "EFO_0002892",
+      "disease_name": "thyroid carcinoma",
+      "noisy_or": 0.2037,
+      "final_score": 0.2139,
+      "aggregated_score": 0.2139,
+      "alpha": 0.375,
+      "n_effective": 0.9,
+      "tier": "B",
+      "n_records": 4,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.38). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.8147
+      }
+    },
+    {
+      "disease_id": "EFO_0004142",
+      "disease_name": "colorectal neoplasm",
+      "noisy_or": 0.2026,
+      "final_score": 0.2135,
+      "aggregated_score": 0.2135,
+      "alpha": 0.375,
+      "n_effective": 0.9,
+      "tier": "B",
+      "n_records": 3,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.38). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.8102
+      }
+    },
+    {
+      "disease_id": "EFO_0001071",
+      "disease_name": "lung carcinoma",
+      "noisy_or": 0.1795,
+      "final_score": 0.2048,
+      "aggregated_score": 0.2048,
+      "alpha": 0.375,
+      "n_effective": 0.9,
+      "tier": "B",
+      "n_records": 3,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.38). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.7181
+      }
+    },
+    {
+      "disease_id": "EFO_1001950",
+      "disease_name": "colon carcinoma",
+      "noisy_or": 0.1778,
+      "final_score": 0.2042,
+      "aggregated_score": 0.2042,
+      "alpha": 0.375,
+      "n_effective": 0.9,
+      "tier": "B",
+      "n_records": 3,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.38). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.7113
+      }
+    },
+    {
+      "disease_id": "EFO_0001378",
+      "disease_name": "multiple myeloma",
+      "noisy_or": 0.1772,
+      "final_score": 0.204,
+      "aggregated_score": 0.204,
+      "alpha": 0.375,
+      "n_effective": 0.9,
+      "tier": "B",
+      "n_records": 6,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.38). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.7089
+      }
+    },
+    {
+      "disease_id": "EFO_0006888",
+      "disease_name": "vascular malformation",
+      "noisy_or": 0.1645,
+      "final_score": 0.1992,
+      "aggregated_score": 0.1992,
+      "alpha": 0.375,
+      "n_effective": 0.9,
+      "tier": "B",
+      "n_records": 3,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Prior dominates (alpha=0.38). Missing: depmap, pharos. Seek additional sources.",
+      "source_calibrated_scores": {
+        "open_targets": 0.6579
+      }
+    },
+    {
+      "disease_id": "EFO_0002617",
+      "disease_name": "metastatic melanoma",
+      "noisy_or": 0.217,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.2683,
+      "n_effective": 0.55,
+      "tier": "C",
+      "n_records": 2,
+      "n_sources": 1,
+      "sources_present": [
+        "open_targets"
+      ],
+      "sources_missing": [
+        "depmap",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.55 < 0.8). Missing: depmap, pharos.",
+      "source_calibrated_scores": {
+        "open_targets": 0.8682
+      }
+    },
+    {
+      "disease_id": "EFO_UNKNOWN_ADRENAL_",
+      "disease_name": "adrenal_cortex",
+      "noisy_or": 0.0,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0019087",
+      "disease_name": "cholangiocarcinoma",
+      "noisy_or": 0.0218,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0624
+      }
+    },
+    {
+      "disease_id": "UBERON_0000178",
+      "disease_name": "blood",
+      "noisy_or": 0.0125,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0358
+      }
+    },
+    {
+      "disease_id": "MONDO_0009807",
+      "disease_name": "osteosarcoma",
+      "noisy_or": 0.0097,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0276
+      }
+    },
+    {
+      "disease_id": "MONDO_0004989",
+      "disease_name": "breast carcinoma",
+      "noisy_or": 0.0135,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0386
+      }
+    },
+    {
+      "disease_id": "EFO_UNKNOWN_CENTRAL_",
+      "disease_name": "central_nervous_system",
+      "noisy_or": 0.0191,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0545
+      }
+    },
+    {
+      "disease_id": "UBERON_0000002",
+      "disease_name": "uterine cervix",
+      "noisy_or": 0.005,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0142
+      }
+    },
+    {
+      "disease_id": "MONDO_0024331",
+      "disease_name": "colorectal carcinoma",
+      "noisy_or": 0.0347,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.099
+      }
+    },
+    {
+      "disease_id": "UBERON_0000922",
+      "disease_name": "embryo",
+      "noisy_or": 0.0005,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0015
+      }
+    },
+    {
+      "disease_id": "EFO_UNKNOWN_EPIDERMO",
+      "disease_name": "epidermoid_carcinoma",
+      "noisy_or": 0.0,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0
+      }
+    },
+    {
+      "disease_id": "UBERON_0001043",
+      "disease_name": "esophagus",
+      "noisy_or": 0.0112,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0321
+      }
+    },
+    {
+      "disease_id": "UBERON_0000970",
+      "disease_name": "eye",
+      "noisy_or": 0.0077,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.022
+      }
+    },
+    {
+      "disease_id": "EFO_UNKNOWN_GASTRIC",
+      "disease_name": "gastric",
+      "noisy_or": 0.0104,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0297
+      }
+    },
+    {
+      "disease_id": "MONDO_0005086",
+      "disease_name": "renal cell carcinoma",
+      "noisy_or": 0.0,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO_0007256",
+      "disease_name": "hepatocellular carcinoma",
+      "noisy_or": 0.0217,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0619
+      }
+    },
+    {
+      "disease_id": "MONDO_0005138",
+      "disease_name": "lung carcinoma",
+      "noisy_or": 0.0065,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.2359,
+      "n_effective": 0.463,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.46 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0186
+      }
+    },
+    {
+      "disease_id": "CL_0000542",
+      "disease_name": "lymphocyte",
+      "noisy_or": 0.0044,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0127
+      }
+    },
+    {
+      "disease_id": "MONDO_0005140",
+      "disease_name": "ovarian carcinoma",
+      "noisy_or": 0.0172,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0491
+      }
+    },
+    {
+      "disease_id": "MONDO_0005192",
+      "disease_name": "exocrine pancreatic carcinoma",
+      "noisy_or": 0.0223,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0638
+      }
+    },
+    {
+      "disease_id": "EFO_UNKNOWN_PERIPHER",
+      "disease_name": "peripheral_nervous_system",
+      "noisy_or": 0.0104,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0296
+      }
+    },
+    {
+      "disease_id": "EFO_UNKNOWN_PLASMA_C",
+      "disease_name": "plasma_cell",
+      "noisy_or": 0.0217,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0619
+      }
+    },
+    {
+      "disease_id": "MONDO_0005159",
+      "disease_name": "prostate carcinoma",
+      "noisy_or": 0.0022,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0063
+      }
+    },
+    {
+      "disease_id": "MONDO_0006424",
+      "disease_name": "soft tissue neoplasm",
+      "noisy_or": 0.0077,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0221
+      }
+    },
+    {
+      "disease_id": "MONDO_0015075",
+      "disease_name": "thyroid gland carcinoma",
+      "noisy_or": 0.0533,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.1522
+      }
+    },
+    {
+      "disease_id": "EFO_UNKNOWN_UPPER_AE",
+      "disease_name": "upper_aerodigestive",
+      "noisy_or": 0.0137,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.039
+      }
+    },
+    {
+      "disease_id": "EFO_UNKNOWN_URINARY_",
+      "disease_name": "urinary_tract",
+      "noisy_or": 0.0053,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0152
+      }
+    },
+    {
+      "disease_id": "MONDO_0002447",
+      "disease_name": "endometrial carcinoma",
+      "noisy_or": 0.0028,
+      "final_score": null,
+      "aggregated_score": 0.0,
+      "alpha": 0.1667,
+      "n_effective": 0.3,
+      "tier": "C",
+      "n_records": 1,
+      "n_sources": 1,
+      "sources_present": [
+        "depmap"
+      ],
+      "sources_missing": [
+        "open_targets",
+        "pharos"
+      ],
+      "jackknife_ci": [],
+      "low_evidence_flag": true,
+      "warning": "Score suppressed (n_eff=0.30 < 0.8). Missing: open_targets, pharos.",
+      "source_calibrated_scores": {
+        "depmap": 0.0079
+      }
+    }
+  ],
+  "source_breakdown": {
+    "open_targets": 137.0,
+    "depmap": 28.0,
+    "pharos": 20.0
+  },
+  "top_evidence_types": [
+    "functional_dependency",
+    "known_drug",
+    "genetic_association",
+    "literature",
+    "somatic_mutation"
+  ],
+  "generated_at": "2026-03-26T07:12:21.280321"
+}
